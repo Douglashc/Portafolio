@@ -12,6 +12,7 @@ export class GitHubService {
 
   constructor(private httpClient: HttpClient) { }
 
+  //Obteniendo los datos de la api
   LoadRepos = () => {
     return this.httpClient.get(`${this.url}?type=owner`)
     .pipe(
