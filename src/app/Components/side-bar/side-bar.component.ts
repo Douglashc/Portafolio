@@ -25,7 +25,8 @@ export class SideBarComponent implements OnInit//, AfterViewInit
     }
   ];
 
-  avatar = '../../../assets/foto2.jpg';
+  //avatar = '../../../assets/foto2.jpg';
+  avatar = 'http://localhost:4200/assets/foto2.jpg';
 
   constructor() {
       
