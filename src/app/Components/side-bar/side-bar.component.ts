@@ -24,9 +24,9 @@ export class SideBarComponent implements OnInit//, AfterViewInit
       icon: '<i class="uil uil-youtube"></i>'
     }
   ];
-
-  //avatar = '../../../assets/foto2.jpg';
-  avatar = 'http://localhost:4200/assets/foto2.jpg';
+  
+  //avatar = 'http://localhost:4200/assets/foto2.jpg';
+  avatar = 'https://douglashc.github.io/Portafolio/assets/foto2.jpg'
 
   constructor() {
       
