@@ -1,0 +1,122 @@
+.wrapper-img{ 
+    //position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    
+    .img-left{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        .avatar{
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            border: solid 2px #ffffffdb;
+        }
+    }
+
+    .img-right{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+
+        .pre-title{
+            display: flex;
+            justify-content: start;
+        }
+
+        .wrapper-name{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+
+.wrapper{
+    padding: 1rem;
+    border-right: solid 1px #3d3f7b4d;
+    box-shadow: 0 0 29px #3c3c3c6b;
+}
+
+.title{
+    font-size: 3rem;
+}
+
+.pre-title{
+    padding: .5rem 0;
+    color: #ffffffdb;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.sub-title{
+    padding: .5rem 0;
+}
+
+.description{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    letter-spacing: .2px;
+    color: #ffffffdb;
+}
+
+.video-wrapper{
+    position: relative;
+    &::before{
+        top: 0;
+        left: 0;
+        position: absolute;
+        content: "";
+        background-color: #0466c87a;
+        width: 100%;
+        height: 260px; //315
+        pointer-events: none;
+    }
+}
+
+.video{
+    width: 100%;
+    height: 260px; //315
+}
+
+.links{
+    .block{
+        height: 4rem;
+        padding: .15rem;
+        display: block;
+
+        .block-in{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            font-size: 2rem;
+            background-color: #ffffff0a;
+        }
+    }
+}
+
+
+//// CAMBIAR
+h1 span {
+    position:absolute;
+    right:0;
+    width:0;
+    //background: #0466c8;
+    //background: #023e8a;
+    background-color: var(--color-1);
+    border-left: 5px solid #ffffffdb;
+    animation: escribir 5s infinite alternate;
+
+}
+@keyframes escribir {
+    from { width: 100% }
+    to { width:18% }
+}
+
