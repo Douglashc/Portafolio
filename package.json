@@ -38,5 +38,5 @@
   },
   "homepage": "https://douglashc.github.io/resume_react",
   "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
+  "deploy": "gh-pages -d build"
 }
