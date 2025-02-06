@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "resume_react",
   "version": "0.1.0",
   "private": true,
@@ -40,3 +41,47 @@
   },
   "homepage": "https://douglashc.github.io/resume_react/"
 }
+=======
+  "name": "mi-portafolio",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "~13.3.0",
+    "@angular/common": "~13.3.0",
+    "@angular/compiler": "~13.3.0",
+    "@angular/core": "~13.3.0",
+    "@angular/forms": "~13.3.0",
+    "@angular/platform-browser": "~13.3.0",
+    "@angular/platform-browser-dynamic": "~13.3.0",
+    "@angular/router": "~13.3.0",
+    "animate.css": "^4.1.1",
+    "ngx-perfect-scrollbar": "^10.1.1",
+    "rxjs": "~7.5.0",
+    "t-writer.js": "^1.0.4",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.11.4"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~13.3.2",
+    "@angular/cli": "~13.3.2",
+    "@angular/compiler-cli": "~13.3.0",
+    "@types/jasmine": "~3.10.0",
+    "@types/node": "^12.11.1",
+    "angular-cli-ghpages": "^1.0.5",
+    "jasmine-core": "~4.0.0",
+    "karma": "~6.3.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage": "~2.1.0",
+    "karma-jasmine": "~4.0.0",
+    "karma-jasmine-html-reporter": "~1.7.0",
+    "typescript": "~4.6.2"
+  }
+}
+>>>>>>> 4e564a120eeaace8fcd4e0bd0b16028383a0ad65

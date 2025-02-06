@@ -1,0 +1,38 @@
+<div class="wrapper animate__animated animate__backInLeft">
+    <!--div class="video-wrapper animate__animated animate__fadeInUp animation-5">
+        <iframe class="video" src="https://www.youtube.com/embed/LXb3EKWsInQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </!--div-->
+    <div class="wrapper-img link-wrapper animate__animated animate__fadeInUp animation-1">
+        <div class="img-left">
+            <img [src]="avatar" class="avatar"  alt="">
+        </div>
+        <div class="img-right">
+            <div class="pre-title animate__animated animate__fadeInUp animation-1">
+                Hola mi nombre es    
+            </div>
+            <div class="wrapper-name">
+                <h1 #asTitle class="title animate__animated animate__fadeInUp animation-1">Douglas Chavarria<span>&#160;</span></h1>
+            </div>
+        </div>
+    </div>
+    <h3 class="sub-title animate__animated animate__fadeInUp animation-4">Desarrollador Web</h3>
+    <p class="description animate__animated animate__fadeInUp animation-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+       Maiores quo illo sit harum ex odio fugiat ab cumque, voluptatibus 
+       expedita maxime saepe error.
+    </p>
+    <hr>
+    <div class="video-wrapper animate__animated animate__fadeInUp animation-4">
+        <iframe class="video" src="https://www.youtube.com/embed/LXb3EKWsInQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="link-wrapper animate__animated animate__fadeInUp animation-5">
+        <div class="links d-flex flex-wrap">
+            <div class="block col-12 col-lg-4" *ngFor="let linkObj of links">
+                <a [href]="linkObj.link">
+                    <div class="block-in">
+                        <span [innerHTML]="linkObj.icon"></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
