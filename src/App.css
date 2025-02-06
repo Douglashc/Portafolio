@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #111;
+  color: white;
+}
+.container {
+  max-width: 800px;
+  background: #000;
+  padding: 20px;
+  margin: auto;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+h1, h2 {
+  color: white;
+}
+.section {
+  margin-bottom: 20px;
+}
+.contacto p {
+  margin: 5px 0;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  margin-bottom: 5px;
+}
+.highlight {
+  color: #4A90E2;
+}
